@@ -12,7 +12,7 @@ export const MenuNavegacion = () => {
           <div className="collapse navbar-collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to={'/'} href="#" className="nav-link text-light fw-bold">Inicio</Link>
+                <Link to={'/'} className="nav-link text-light fw-bold">Inicio</Link>
               </li>
               <li className="nav-item dropdown bg-dark">
                 <Link className="nav-link text-light dropdown-toggle" 
@@ -37,11 +37,11 @@ export const MenuNavegacion = () => {
                   Activos
                 </a>
                 <ul className="dropdown-menu">
-                  <li><NavLink className="dropdown-item">Tipo de Activo</NavLink></li>
-                  <li><NavLink className="dropdown-item">Activo</NavLink></li>
-                  <li><NavLink className="dropdown-item">lista3</NavLink></li>
-                  <li><NavLink className="dropdown-item">lista</NavLink></li>
-                  <li><NavLink className="dropdown-item">lista</NavLink></li>
+                  <li><NavLink to='/tipoActivo' className="dropdown-item nav-link">Tipo de Activo</NavLink></li>
+                  <li><NavLink to='/activo' className="dropdown-item nav-link">Tipo de Activo</NavLink></li>
+                  <li><NavLink to='/depreciacion' className="dropdown-item nav-link">Depreciacion</NavLink></li>
+                  <li><NavLink to='/reporteActivos1' className="dropdown-item nav-link">Reporte Activos 1</NavLink></li>
+                  <li><NavLink to='/reporteActivos2' className="dropdown-item nav-link">Reporte Activos 2</NavLink></li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -49,7 +49,7 @@ export const MenuNavegacion = () => {
                 role="button" 
                 data-bs-toggle="dropdown" 
                 aria-expanded="false">
-                  Nomina
+                  Nómina
                 </a>
                 <ul className="dropdown-menu">
                   <li><NavLink className="dropdown-item">ITEM 1</NavLink></li>
@@ -78,7 +78,7 @@ export const MenuNavegacion = () => {
           </div>
           <div className="d-flex text-end text-light">
             <span>
-              <a href="#" className=" text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Cerrar Sesión"><PowerSettingsNewIcon  sx={{ color: 'white', fontSize: 35  }} ></PowerSettingsNewIcon></a>
+              <a href="#" className="btn text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Cerrar Sesión"><PowerSettingsNewIcon  sx={{  fontSize: 35  }} ></PowerSettingsNewIcon></a>
             </span>
           </div>
         </div>

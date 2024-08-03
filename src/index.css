@@ -2,3 +2,7 @@ body{
   background-color: #1d1b1b;
   color: white;
 }
+
+.table{
+  border-radius: 100%;
+  }

@@ -1,6 +1,10 @@
 export const EstadoResultadoPage = () => {
   return (
-    <div>EstadoResultadoPage</div>
+    <>
+      <div className="container">
+        estado resultado
+      </div>
+    </>
   )
 }
 
